@@ -17,9 +17,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta name="google-adsense-account" content="ca-pub-9991527274052749" />
-      </head>
       <body className={`${inter.variable} ${outfit.variable} antialiased font-sans`}>
         {children}
       </body>
