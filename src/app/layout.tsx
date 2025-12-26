@@ -19,13 +19,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${outfit.variable} antialiased font-sans`}>
+      <head>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9991527274052749"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+      </head>
+      <body className={`${inter.variable} ${outfit.variable} antialiased font-sans`}>
         {children}
       </body>
     </html>
